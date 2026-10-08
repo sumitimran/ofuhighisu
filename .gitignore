@@ -22,8 +22,7 @@ keystore.jks/
 *.aab
 *.aar
 
-# Gradle wrapper jar must be committed for CI environments that use ./gradlew
-!gradle/wrapper/gradle-wrapper.jar
+# Gradle wrapper jar should be tracked for CI
 
 # Kotlin/Java
 *.class
