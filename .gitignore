@@ -22,12 +22,12 @@ keystore.jks/
 *.aab
 *.aar
 
-# Gradle wrapper jar (should be tracked as script, but the jar can be ignored)
-**/gradle-wrapper.jar
+# Gradle wrapper jar should be tracked for CI
 
 # Kotlin/Java
 *.class
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.war
 *.ear
 *.dex
@@ -87,4 +87,3 @@ crashlytics-build.properties
 *.jks
 
 # End of file
-
